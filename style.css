@@ -44,6 +44,20 @@ body {
   display: flex;
 }
 
+button {
+  background: none;
+  border: 0;
+  color: #888;
+  font-size: 15px;
+  width: 60px;
+  font-family: Lato, sans-serif;
+  cursor: pointer;
+}
+
+button:hover {
+  color: #3a3A3a;
+}
+/*Css Reset*/
 ul {
   margin: 0;
   padding: 0;
@@ -58,21 +72,6 @@ input,
 button {
   outline: none;
 }
-
-button {
-  background: none;
-  border: 0;
-  color: #888;
-  font-size: 15px;
-  width: 60px;
-  font-family: Lato, sans-serif;
-  cursor: pointer;
-}
-
-button:hover {
-  color: #3a3A3a;
-}
-
 /* Heading */
 h3,
 label[for="new-task"] {
