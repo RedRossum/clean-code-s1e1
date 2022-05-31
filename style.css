@@ -1,5 +1,5 @@
 /* Basic Style */
-body {
+.body {
   background-color: #f8f8f8;
   color: #333;
   font-family: Lato, sans-serif;
@@ -12,11 +12,11 @@ body {
   text-align: right;
 }
 
-.header img {
+.header__img {
   width: 100%;
 }
 
-.header .more-inf {
+.header .header__info {
   font-family: fantasy, cursive;
 }
 
@@ -40,7 +40,7 @@ body {
   flex-grow: 1;
 }
 
-.task-row-wrapper {
+.app__task-row-wrapper {
   display: flex;
 }
 
@@ -72,6 +72,7 @@ input,
 button {
   outline: none;
 }
+
 /* Heading */
 h3,
 label[for="new-task"] {
@@ -120,10 +121,6 @@ li {
   display: flex;
   justify-content: space-between;
   align-items: center;
-}
-
-li > * {
-  vertical-align: middle;
 }
 
 li > input[type="checkbox"] {
